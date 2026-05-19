@@ -1,0 +1,51 @@
+export const CATEGORIES = [
+  { id: 'medicines', name: 'Medicines', icon: '💊', color: 'bg-blue-100 text-blue-600' },
+  { id: 'wellness', name: 'Wellness', icon: '🌿', color: 'bg-green-100 text-green-600' },
+  { id: 'lab-tests', name: 'Lab Tests', icon: '🔬', color: 'bg-purple-100 text-purple-600' },
+  { id: 'devices', name: 'Health Devices', icon: '🩺', color: 'bg-orange-100 text-orange-600' },
+  { id: 'personal-care', name: 'Personal Care', icon: '🧴', color: 'bg-pink-100 text-pink-600' },
+  { id: 'child-care', name: 'Child Care', icon: '👶', color: 'bg-yellow-100 text-yellow-600' },
+];
+
+export const FEATURED_PRODUCTS = [
+  {
+    id: '1',
+    name: 'Paracetamol 500mg',
+    description: 'Relieves pain and reduces fever',
+    price: 45,
+    discountPrice: 39,
+    category: 'Medicines',
+    prescriptionRequired: true,
+    image: 'https://via.placeholder.com/150',
+  },
+  {
+    id: '2',
+    name: 'Multivitamin Complex',
+    description: 'Daily health and energy boost',
+    price: 299,
+    discountPrice: 249,
+    category: 'Wellness',
+    prescriptionRequired: false,
+    image: 'https://via.placeholder.com/150',
+  },
+  {
+    id: '3',
+    name: 'Digital Thermometer',
+    description: 'Accurate and fast reading',
+    price: 599,
+    discountPrice: 499,
+    category: 'Health Devices',
+    prescriptionRequired: false,
+    image: 'https://via.placeholder.com/150',
+  },
+  {
+    id: '4',
+    name: 'Vitamin C 1000mg',
+    description: 'Immunity booster tablets',
+    price: 150,
+    discountPrice: 120,
+    category: 'Wellness',
+    prescriptionRequired: false,
+    image: 'https://via.placeholder.com/150',
+  },
+];
